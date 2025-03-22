@@ -114,4 +114,17 @@ python viser/visualizer_monst3r.py --data demo_tmp/lady-running
 python viser/visualizer_monst3r_realtime.py --data-path demo_tmp/lady-running
 ```
 
+接下来验证其他序列看看效果
+
+```bash
+CUDA_VISIBLE_DEVICES=3 python demo.py --input data/davis_videos/breakdance.mp4 --output_dir demo_tmp --seq_name breakdance
+python viser/visualizer_monst3r.py --data demo_tmp/breakdance
+
+
+
+CUDA_VISIBLE_DEVICES=3 python demo.py --input data/davis_videos/judo.mp4 --output_dir demo_tmp --seq_name breakdance
+python viser/visualizer_monst3r.py --data demo_tmp/judo
+```
+
+
 具体可视化效果请见博客中对4D场景进行可视化
