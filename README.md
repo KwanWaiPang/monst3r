@@ -97,7 +97,7 @@ CUDA_VISIBLE_DEVICES=3 python demo.py --input demo_data/lady-running --output_di
 估算出来的深度结果如下图所示
 
 <div align="center">
-  <img src="./Figs/_depth_maps.gif" width="80%" />
+  <img src="./Figs/1_depth_maps.gif" width="80%" />
 <figcaption>  
 </figcaption>
 </div>
@@ -122,7 +122,7 @@ python viser/visualizer_monst3r.py --data demo_tmp/breakdance
 
 
 
-CUDA_VISIBLE_DEVICES=3 python demo.py --input data/davis_videos/judo.mp4 --output_dir demo_tmp --seq_name breakdance
+CUDA_VISIBLE_DEVICES=3 python demo.py --input data/davis_videos/judo.mp4 --output_dir demo_tmp --seq_name judo
 python viser/visualizer_monst3r.py --data demo_tmp/judo
 ```
 
