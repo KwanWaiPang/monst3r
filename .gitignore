@@ -150,3 +150,13 @@
 # .pyre/
 # zilejNuE
 # waymo_processed.zip
+
+
+*.egg-info
+*.so
+*.o
+*.pth
+*.pyc
+
+data/davis/*
+data/davis_videos/*
